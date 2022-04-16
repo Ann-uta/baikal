@@ -1,0 +1,292 @@
+.container1 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.background {
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 940px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    /*position: absolute;*/
+    width: 54px;
+    height: 54px;
+    left: 400px;
+    top: 13px;
+    padding-left: 400px;
+    padding-top: 15px;
+}
+
+#name {
+    position: absolute;
+    width: 210px;
+    height: 27px;
+    /*left: 472px;*/
+    top: 1px;
+    padding-left: 472px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+#agency {
+    position: absolute;
+    width: 113px;
+    height: 21px;
+    left: 472px;
+    top: 27px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+a.phone,
+a.email,
+p.callbutton {
+    font-style: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a.phone,
+a.email {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    top: 28px;
+    height: 23px;
+}
+
+a.phone {
+    width: 200px;
+    height: 23px;
+    left: 870px;
+    top: 28px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+}
+
+a.email {
+    position: absolute;
+    width: 210px;
+    height: 23px;
+    left: 1109px;
+    top: 28px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.callbutton {
+    position: absolute;
+    width: 186px;
+    height: 44px;
+    left: 1334px;
+    top: 18px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 22px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.callbutton :hover {
+    /*работает как-то не так*/
+    color: black;
+    background-color: #FFFFFF;
+}
+
+.divider {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 81px;
+
+    background: #C4C4C4;
+    opacity: 0.3;
+
+    border: 1px solid #D9D9DE;
+}
+
+.nav {
+    position: absolute;
+    left: 400px;
+    top: 101px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.menu {
+    width: 110px;
+    height: 19px;
+    left: 400px;
+    top: 101px;
+
+    text-decoration: none;
+    padding-right: 32px;
+
+    color: #FFFFFF;
+}
+
+.maintitle {
+    position: absolute;
+    width: 724px;
+    height: 236px;
+    left: 400px;
+    top: 140px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 117px;
+}
+
+.motto {
+    position: absolute;
+    width: 562px;
+    height: 59px;
+    left: 400px;
+    top: 470px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.choosetourbutton {
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 400px;
+    top: 623px;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgba(28, 28, 28, 0)
+}
+
+.choosetourbutton :hover {
+    /*не работает, как надо*/
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.point1 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 940px;
+    top: 867px;
+
+    box-sizing: border-box;
+}
+
+.point2 {
+    position: absolute;
+    width: 13px;
+    height: 18px;
+    left: 954px;
+    top: 878px;
+}
+
+.box1 {
+    width: 100%;
+    height: initial;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.line1,
+.line2,
+.line3 {
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 64px;
+}
+
+.block1_1,
+.block1_2,
+.block1_3,
+.block1_4 {
+    width: 256px;
+    height: 200px;
+    float: left;
+
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.block2_1,
+.block2_2,
+.block2_3,
+.block2_4 {
+    width: 256px;
+    height: 200px;
+    float: left;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.block3_1,
+.block3_2,
+.block3_3,
+.block3_4 {
+    width: 256px;
+    height: 200px;
+    float: left;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
