@@ -1,159 +1,129 @@
-.container1 {
+* {
+    /*border: 1px solid red;*/
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
 }
 
 .background {
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
-    width: 1920px;
+    background-image: url(../images/main_background.jpg);
+    background-color: #ecdaa9;
+    background-size: cover;
+    width: 100vw;
     height: 940px;
-    left: 0px;
-    top: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    color: white;
+
 }
 
 .logo {
-    /*position: absolute;*/
+    padding-top: 13px;
+    padding-right: 20px;
     width: 54px;
-    height: 54px;
-    left: 400px;
-    top: 13px;
-    padding-left: 400px;
-    padding-top: 15px;
 }
 
 #name {
-    position: absolute;
-    width: 210px;
-    height: 27px;
-    /*left: 472px;*/
-    top: 1px;
-    padding-left: 472px;
+    box-sizing: border-box;
+    height: inherit;
+    padding-top: 15px;
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
 
-    font-family: 'PT Serif';
+.left,
+.right {
+    display: flex;
+    width: 20vw;
+    flex-shrink: 1;
+}
+
+.heading {
+    font-family: 'PT Serif', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 26px;
-    text-decoration: none;
-
-    color: #FFFFFF;
 }
 
-#agency {
-    position: absolute;
-    width: 113px;
-    height: 21px;
-    left: 472px;
-    top: 27px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration: none;
-
-    color: #FFFFFF;
+.contact-box {
+    display: flex;
+    width: 607px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
-a.phone,
-a.email,
-p.callbutton {
-    font-style: normal;
-    text-decoration: none;
-    color: #FFFFFF;
+.phone img,
+.email img {
+    display: flex;
+    width: 24px;
+    padding-right: 13px;
 }
 
-a.phone,
-a.email {
-    position: absolute;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    top: 28px;
-    height: 23px;
+.email {
+    margin-left: 33px;
 }
 
-a.phone {
-    width: 200px;
-    height: 23px;
-    left: 870px;
-    top: 28px;
-
+.phone,
+.email {
+    display: flex;
+    flex-shrink: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 130%;
-    /* or 23px */
-}
-
-a.email {
-    position: absolute;
-    width: 210px;
-    height: 23px;
-    left: 1109px;
-    top: 28px;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 130%;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .callbutton {
-    position: absolute;
+    display: flex;
+    flex-shrink: 0;
     width: 186px;
+    margin-left: 45px;
+}
+
+.callbutton a {
+    display: flex;
+    padding-top: 12px;
     height: 44px;
-    left: 1334px;
-    top: 18px;
+    width: 100em;
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
 
     border: 1px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
     border-radius: 22px;
-    text-decoration: none;
-    text-align: center;
-    color: #FFFFFF
 }
 
 .callbutton :hover {
-    /*работает как-то не так*/
     color: black;
     background-color: #FFFFFF;
 }
 
 .divider {
-    position: absolute;
-    width: 1920px;
-    height: 0px;
-    left: 0px;
-    top: 81px;
-
+    display: flex;
+    width: 100vw;
     background: #C4C4C4;
     opacity: 0.3;
-
-    border: 1px solid #D9D9DE;
 }
 
 .nav {
-    position: absolute;
-    left: 400px;
-    top: 101px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    display: flex;
+    padding-top: 20px;
 }
 
 .menu {
-    width: 110px;
-    height: 19px;
-    left: 400px;
-    top: 101px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 
     text-decoration: none;
     padding-right: 32px;
@@ -161,132 +131,175 @@ a.email {
     color: #FFFFFF;
 }
 
-.maintitle {
-    position: absolute;
+.main {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.main .heading {
+    display: flex;
     width: 724px;
     height: 236px;
-    left: 400px;
-    top: 140px;
+    top: 226px;
+    margin-bottom: 0px;
 
-    font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
     font-size: 90px;
-    line-height: 117px;
+    line-height: 130%;
 }
 
 .motto {
-    position: absolute;
     width: 562px;
     height: 59px;
-    left: 400px;
-    top: 470px;
+    top: 8px;
+    margin-bottom: 0px;
 
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 140%;
 }
 
 .choosetourbutton {
-    position: absolute;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.choosetourbutton a {
+    display: flex;
+    padding-top: 19px;
     width: 250px;
     height: 60px;
-    left: 400px;
-    top: 623px;
+    margin-top: 94px;
+    margin-left: 20vw;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
 
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 30px;
-
-    text-align: center;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration: none;
-    color: #FFFFFF;
-    background-color: rgba(28, 28, 28, 0)
 }
 
 .choosetourbutton :hover {
-    /*не работает, как надо*/
+    color: black;
     background-color: #FFFFFF;
-    color: #000000;
 }
 
 .point1 {
-    position: absolute;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.point1 img {
     width: 40px;
-    height: 40px;
-    left: 940px;
-    top: 867px;
-
-    box-sizing: border-box;
 }
 
-.point2 {
-    position: absolute;
-    width: 13px;
-    height: 18px;
-    left: 954px;
-    top: 878px;
-}
-
-.box1 {
-    width: 100%;
-    height: initial;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #000000;
+.container1 {
+    display: flex;
+    width: 100vw;
+    height: 792px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 .line1,
 .line2,
 .line3 {
-    padding-left: 400px;
-    padding-right: 400px;
-    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    text-align: left;
 }
 
-.block1_1,
-.block1_2,
-.block1_3,
-.block1_4 {
-    width: 256px;
+.container1 a {
+    display: block;
+    width: 14vw;
     height: 200px;
-    float: left;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
 
     border: 1px solid #D9D9DE;
     box-sizing: border-box;
     border-radius: 6px;
+
+    color: #000000;
 }
 
-.block2_1,
-.block2_2,
-.block2_3,
-.block2_4 {
-    width: 256px;
-    height: 200px;
-    float: left;
-    border: 1px solid #D9D9DE;
-    box-sizing: border-box;
-    border-radius: 6px;
+.container1 a:hover {
+    border: 1px solid #4f4ff8;
 }
 
-.block3_1,
-.block3_2,
-.block3_3,
-.block3_4 {
-    width: 256px;
-    height: 200px;
-    float: left;
-    border: 1px solid #D9D9DE;
-    box-sizing: border-box;
-    border-radius: 6px;
+.container1 img {
+    width: inherit;
 }
+
+.container1 div {
+    margin-right: 32px;
+}
+
+.container2 p {
+    width: 100vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    padding-top: 44px;
+    text-align: center;
+}
+
+.container2 {
+    display: block;
+    background-color: #f5f7e7;
+    width: 100vw;
+    height: 582px;
+}
+
+.container2 img {
+    width: 84px;
+    margin-bottom: 16px;
+    height: 84px;
+}
+
+.container2 span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+#line_1,
+#line_2 {
+    display: block;
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+}
+
+.container2 div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 17vw;
+    height: inherit;
+    text-align: left;
+    margin-right: 33px;
+    margin-top: 50px;
+}
+
+
+footer {}
