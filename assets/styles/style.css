@@ -22,7 +22,7 @@
 .logo {
     padding-top: 13px;
     padding-right: 20px;
-    width: 54px;
+    height: 54px;
 }
 
 #name {
@@ -51,7 +51,8 @@
 
 .contact-box {
     display: flex;
-    width: 607px;
+    width: 30vw;
+    /*было 607пикс*/
     justify-content: flex-end;
     flex-wrap: wrap;
 }
@@ -59,7 +60,7 @@
 .phone img,
 .email img {
     display: flex;
-    width: 24px;
+    height: 24px;
     padding-right: 13px;
 }
 
@@ -167,13 +168,12 @@
 }
 
 .choosetourbutton a {
-    display: flex;
+    display: block;
     padding-top: 19px;
     width: 250px;
     height: 60px;
     margin-top: 94px;
     margin-left: 20vw;
-
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -267,13 +267,11 @@
     display: block;
     background-color: #f5f7e7;
     width: 100vw;
-    height: 582px;
 }
 
 .container2 img {
     width: 84px;
     margin-bottom: 16px;
-    height: 84px;
 }
 
 .container2 span {
@@ -287,7 +285,6 @@
 #line_2 {
     display: block;
     width: 100vw;
-    height: 15vh;
     text-align: center;
 }
 
@@ -300,6 +297,3 @@
     margin-right: 33px;
     margin-top: 50px;
 }
-
-
-footer {}
